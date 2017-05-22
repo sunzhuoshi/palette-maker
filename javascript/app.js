@@ -82,6 +82,7 @@ function run(){
   for (var x=0; x < canvas.width; x++){
     for (var y=0; y < canvas.height; y++){
       var pixel = canvas.getContext('2d').getImageData(x, y, 1, 1).data;
+	  if (pixel[3]) { // add only if alpha > 0
 		pixels.push({
 			red: pixel[0],
 			green: pixel[1],
