@@ -137,6 +137,11 @@ div {
     padding-top: 25px;
 }
 
+#color-picker-output {
+    display: none;
+    padding-top: 25px;
+}
+
 #histogram-plot {
     margin-left: auto;
     margin-right: auto;
@@ -154,6 +159,14 @@ div {
 }
 
 #kmeans-plot {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 400px;
+    margin-top: 25px;
+}
+
+#color-picker-plot {
     margin-left: auto;
     margin-right: auto;
     width: 600px;
